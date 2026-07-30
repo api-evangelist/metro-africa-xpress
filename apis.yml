@@ -1,9 +1,28 @@
 aid: metro-africa-xpress
 name: Metro Africa Xpress
-description: Metro Africa Xpress is a company surfaced as a portfolio company of techstars and added to
-  the API Evangelist network as a stub for enrichment. This profile is a lead awaiting the enrichment
-  pipeline.
+description: 'Metro Africa Xpress (MAX), operating as maxdrive.ai, is a Nigerian technology-driven
+  mobility company on a mission to make transportation safe, affordable, accessible and
+  sustainable across Africa. MAX finances and deploys vehicles — including electric two-
+  and three-wheelers — to a vetted network of driver-partners ("champions"), and runs a
+  drivers services platform, electric-vehicle assembly and charging infrastructure,
+  enterprise last-mile logistics, and mobility gov-tech solutions. Emerging from the MIT
+  and Techstars ecosystem, MAX is backed by Novastar Ventures, Goodwell, Shell Foundation,
+  Breakthrough Energy, Capria and Yamaha, and operates across Nigeria, Cameroon and other
+  West African markets. The company publishes a marketing and corporate website only; no
+  public developer program, API, or developer portal was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/metro-africa-xpress/refs/heads/main/apis.yml
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://cdn.prod.website-files.com/603cefb03824d30d3a83dad0/60d0260271570ae4592aa5df_Web_clip.png
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
@@ -12,9 +31,17 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Mobility
+- Transportation
+- Electric Vehicles
+- Vehicle Financing
+- Logistics
+- Fintech
+- Africa
+- Nigeria
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,4 +50,19 @@ maintainers:
   email: info@apis.io
 common:
 - type: Website
-  url: https://maxdrive.ai/
+  url: https://www.maxdrive.ai/
+- type: Blog
+  url: https://max-drive.medium.com/
+- type: TermsOfService
+  url: https://www.maxdrive.ai/terms-of-service
+- type: PrivacyPolicy
+  url: https://www.maxdrive.ai/max-privacy-data-protection-policy
+- type: Support
+  url: https://www.maxdrive.ai/contact-us
+- type: DomainSecurity
+  url: security/metro-africa-xpress-domain-security.yml
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
