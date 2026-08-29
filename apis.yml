@@ -11,6 +11,17 @@ description: 'Metro Africa Xpress (MAX), operating as maxdrive.ai, is a Nigerian
   West African markets. The company publishes a marketing and corporate website only; no
   public developer program, API, or developer portal was found during enrichment.'
 url: https://raw.githubusercontent.com/api-evangelist/metro-africa-xpress/refs/heads/main/apis.yml
+deliveryModel:
+  model: saas
+  open_source: false
+  commercial: true
+  callable_host: false
+  label: Hosted service · you call their endpoint
+  confidence: medium
+  source:
+  - pricing
+  generated: '2026-08-28'
+  method: derived
 accessModel:
   pricing: unknown
   onboarding: unknown
